@@ -1,0 +1,102 @@
+.al-login-page {
+  min-height: 100vh;
+  background: #0f1117;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.al-login-card {
+  background: #1a1d27;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  padding: 40px;
+  width: 100%;
+  max-width: 380px;
+  text-align: center;
+}
+
+.al-login-logo {
+  font-size: 26px;
+  font-weight: 700;
+  color: #c9a84c;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.al-login-card h1 { font-size: 18px; color: #e2e8f0; margin-bottom: 4px; }
+.al-login-card > p { font-size: 13px; color: #64748b; margin-bottom: 24px; }
+
+.al-login-error {
+  background: rgba(239,68,68,0.12);
+  border: 1px solid rgba(239,68,68,0.3);
+  color: #f87171;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 13px;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.al-login-form { display: flex; flex-direction: column; gap: 12px; }
+
+.al-lf-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.al-lf-group > svg:first-child {
+  position: absolute;
+  left: 13px;
+  color: #64748b;
+  pointer-events: none;
+}
+.al-lf-group input {
+  width: 100%;
+  padding: 11px 14px 11px 38px;
+  background: #22263a;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 8px;
+  color: #e2e8f0;
+  font-size: 14px;
+  font-family: inherit;
+  outline: none;
+  transition: 0.2s;
+}
+.al-lf-group input:focus { border-color: #c9a84c; }
+.al-eye {
+  position: absolute;
+  right: 12px;
+  background: none;
+  border: none;
+  color: #64748b;
+  cursor: pointer;
+  display: flex;
+}
+
+.al-login-btn {
+  margin-top: 4px;
+  padding: 12px;
+  background: #c9a84c;
+  color: #0f1117;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.al-login-btn:hover:not(:disabled) { background: #e8c96a; }
+.al-login-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.al-back-link {
+  display: block;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #64748b;
+  transition: 0.2s;
+}
+.al-back-link:hover { color: #c9a84c; }
