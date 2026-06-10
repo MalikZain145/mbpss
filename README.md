@@ -28,11 +28,6 @@ That's it. Everything runs from these two commands.
 | http://localhost:3000/admin/login | Admin login |
 | http://localhost:5000/api/health | Backend health check |
 
-### Default Admin Credentials
-- Email: `admin@mbpss.co.uk`
-- Password: `Admin@MBPSS2025`
-- ⚠️ Change password after first login at `/admin/settings`
-
 ---
 
 ## Environment Variables
